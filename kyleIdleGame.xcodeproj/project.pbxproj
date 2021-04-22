@@ -15,6 +15,7 @@
 		FD6F5F2F262F208A001DF6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6F5F2D262F208A001DF6D4 /* LaunchScreen.storyboard */; };
 		FD6F5F3A262F208B001DF6D4 /* kyleIdleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F5F39262F208B001DF6D4 /* kyleIdleGameTests.swift */; };
 		FD6F5F45262F208B001DF6D4 /* kyleIdleGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F5F44262F208B001DF6D4 /* kyleIdleGameUITests.swift */; };
+		FD6F5F59262F21B8001DF6D4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F5F58262F21B8001DF6D4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD6F5F40262F208B001DF6D4 /* kyleIdleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kyleIdleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6F5F44262F208B001DF6D4 /* kyleIdleGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kyleIdleGameUITests.swift; sourceTree = "<group>"; };
 		FD6F5F46262F208B001DF6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6F5F58262F21B8001DF6D4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				FD6F5F22262F2087001DF6D4 /* AppDelegate.swift */,
 				FD6F5F24262F2087001DF6D4 /* SceneDelegate.swift */,
-				FD6F5F26262F2087001DF6D4 /* ViewController.swift */,
 				FD6F5F28262F2087001DF6D4 /* Main.storyboard */,
+				FD6F5F26262F2087001DF6D4 /* ViewController.swift */,
+				FD6F5F58262F21B8001DF6D4 /* SecondViewController.swift */,
 				FD6F5F2B262F208A001DF6D4 /* Assets.xcassets */,
 				FD6F5F2D262F208A001DF6D4 /* LaunchScreen.storyboard */,
 				FD6F5F30262F208A001DF6D4 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6F5F59262F21B8001DF6D4 /* SecondViewController.swift in Sources */,
 				FD6F5F27262F2087001DF6D4 /* ViewController.swift in Sources */,
 				FD6F5F23262F2087001DF6D4 /* AppDelegate.swift in Sources */,
 				FD6F5F25262F2087001DF6D4 /* SceneDelegate.swift in Sources */,
